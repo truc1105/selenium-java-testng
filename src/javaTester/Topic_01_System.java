@@ -1,6 +1,6 @@
 package javaTester;
 
-public class Topic1_System {
+public class Topic_01_System {
 	public static void main(String[] args) {
 		String projectPath = System.getProperty("user.dir");
 		System.out.println(projectPath);

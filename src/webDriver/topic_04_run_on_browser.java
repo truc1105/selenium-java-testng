@@ -12,7 +12,7 @@ public class topic_04_run_on_browser {
 	
 	@Test
 	public void TC_01_Run_Chrome() {
-		//Executable file -> run on chrome
+		//Run on chrome
 		System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
