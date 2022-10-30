@@ -36,7 +36,7 @@ public class topic_05_web_element_Exercise {
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
-	/*
+	
 	@Test
 	public void TC_01_isDisplay() {
 		driver.get("https://automationfc.github.io/basic-form/index.html");
@@ -109,7 +109,7 @@ public class topic_05_web_element_Exercise {
 			System.out.println("Element is not selected");
 		}
 	}
-	*/
+	
 	
 	@Test
 	public void TC_04_Register_Function() {
